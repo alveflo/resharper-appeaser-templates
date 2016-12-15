@@ -1,0 +1,58 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Description/@EntryValue">Mediator command</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Text/@EntryValue">using Appeaser;&#xD;
+using NHibernate;&#xD;
+$HEADER$namespace $NAMESPACE$&#xD;
+{&#xD;
+	public class $CLASS$ &#xD;
+	{&#xD;
+		public class Handler : ICommandHandler&lt;Command, Result&gt;&#xD;
+		{&#xD;
+			private readonly ISession _session;&#xD;
+&#xD;
+			public Handler(ISession session)&#xD;
+			{&#xD;
+				_session = session;&#xD;
+			}&#xD;
+&#xD;
+			public Result Handle(Command command)&#xD;
+			{&#xD;
+				return new Result();&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		public class Command : ICommand&lt;Result&gt;&#xD;
+		{&#xD;
+			public Command()&#xD;
+			{&#xD;
+			&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		public class Result&#xD;
+		{&#xD;
+			public Result()&#xD;
+			{&#xD;
+			&#xD;
+			}&#xD;
+		}&#xD;
+	}&#xD;
+}$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/CustomProperties/=FileName/@EntryIndexedValue">class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Field/=HEADER/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Field/=HEADER/Expression/@EntryValue">fileheader()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Field/=HEADER/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2902903C2E718C419778F646099DFD10/Field/=CLASS/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
